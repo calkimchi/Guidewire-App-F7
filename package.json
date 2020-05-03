@@ -5,7 +5,10 @@
   "description": "Guidewire",
   "repository": "",
   "license": "UNLICENSED",
+  "homepage": "https://calkimchi.github.io/Guidewire-App-F7",
   "scripts": {
+  	"predeploy": "npm run build",
+  	"deploy": "gh-pages -d build",
     "start": "npm run dev",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./build/webpack.config.js",
     "build-dev": "cross-env NODE_ENV=development node ./build/build.js",
