@@ -6,27 +6,12 @@ export default () => (
     <Navbar title="Insurance Types" backLink="Back" />
 
     <Block>
-      <p>Explore the different types of insurance <a href="/cards/">Cards</a> that we can provide you with.</p>
+      <p>Explore the different types of insurance that we believe are the most valuable to you!</p>
+	  <p>Our prototype experience is based around the purchasing and claims processing of <a href="/cards/">Car Insurance.</a> When you're done exploring, please continue with the purchasing process for Car Insurance.</p>
     </Block>
 
     <div className="demo-expandable-cards">
       
-	  
-	  <Card expandable>
-        <CardContent padding={false}>
-          <div style={{background: 'url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-honda-accord-mmp-1-1568824260.jpg?crop=1xw:0.84375xh;center,top&resize=480:*) no-repeat center bottom', backgroundSize: 'cover', height: '240px'}}></div>
-          <Link cardClose color="white" className="card-opened-fade-in" style={{position: 'absolute', right: '15px', top: '15px'}} iconF7="xmark_circle_fill" />
-          <CardHeader style={{height: '60px'}}>
-			Car Insurance
-			</CardHeader>
-          <div className="card-content-padding">
-            <p>Vehicle insurance (also known as car insurance, motor insurance, or auto insurance) is insurance for cars, trucks, motorcycles, and other road vehicles. Its primary use is to provide financial protection against physical damage or bodily injury resulting from traffic collisions and against liability that could also arise from incidents in a vehicle. Vehicle insurance may additionally offer financial protection against theft of the vehicle, and against damage to the vehicle sustained from events other than traffic collisions, such as keying, weather or natural disasters, and damage sustained by colliding with stationary objects. The specific terms of vehicle insurance vary with legal regulations in each region.</p>
-            <p>
-              <Button fill round large cardClose>Close</Button>
-            </p>
-          </div>
-        </CardContent>
-      </Card>
 	  
 	  <Card expandable>
         <CardContent padding={false}>
@@ -37,22 +22,40 @@ export default () => (
 			</CardHeader>
           <div className="card-content-padding">
             <p>Renters' insurance, often called tenants' insurance, is an insurance policy that provides some of the benefits of homeowners' insurance, but does not include coverage for the dwelling, or structure, with the exception of small alterations that a tenant makes to the structure.</p>
-            <p>
+            <p> It provides liability insurance and the tenant's personal property is covered against named perils such as fire, theft, and vandalism. It also pays expenses when the dwelling becomes uninhabitable. Due to renters' insurance existing mainly to protect against losses to the tenant's personal property and provide them with liability coverage but not to insure the actual dwelling, it is significantly less expensive than a homeowners' policy.</p>
+			<p>
               <Button fill round large cardClose>Close</Button>
             </p>
           </div>
         </CardContent>
       </Card>
 
-      <Card expandable>
+	  <Card expandable>
         <CardContent padding={false}>
-          <div style={{background: 'url(https://lh3.googleusercontent.com/proxy/bqjCCGOZ4LKtGpocNnkQKExZ7Nah28nF5j0HSR2-ExCGG1hyZ5nd1HsA-ZDO0FvrzdUUWTXISB_D-F84A1EXIWTwTRoaWOX128YxJVGlT_s8fke3wt80tFonlOm561VVE4AFHd4j) no-repeat center bottom', backgroundSize: 'cover', height: '240px'}}></div>
+          <div style={{background: 'url(https://cottagelife.com/wp-content/uploads/2019/08/By-EpicStockMedia-1200x811.jpg) no-repeat center bottom', backgroundSize: 'cover', height: '240px'}}></div>
           <Link cardClose color="white" className="card-opened-fade-in" style={{position: 'absolute', right: '15px', top: '15px'}} iconF7="xmark_circle_fill" />
           <CardHeader style={{height: '60px'}}>
-			Property Insurance
+			Travel Insurance
 			</CardHeader>
           <div className="card-content-padding">
-            <p>Property insurance provides protection against most risks to property, such as fire, theft and some weather damage. This includes specialized forms of insurance such as fire insurance, flood insurance, earthquake insurance, home insurance, or boiler insurance.</p>
+            <p>You have a big trip coming up, and you’ve heard that travel insurance can help protect that trip. It can – but there’s still one big question you need answered: What does travel insurance (or trip insurance or travel protection) cover?</p>
+            <p>Most travel insurance plans cover medical emergencies, trip cancellation, trip interruption, delays, medical evacuation, and lost, damaged, or stolen luggage. Depending on what plan you buy and when you buy it, travel insurance can also cover rental-car damage, pre-existing conditions, and trip cancellation for any reason.</p>
+			<p>
+              <Button fill round large cardClose>Close</Button>
+            </p>
+          </div>
+        </CardContent>
+      </Card>
+	  
+	  <Card expandable>
+        <CardContent padding={false}>
+          <div style={{background: 'url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-honda-accord-mmp-1-1568824260.jpg?crop=1xw:0.84375xh;center,top&resize=480:*) no-repeat center bottom', backgroundSize: 'cover', height: '240px'}}></div>
+          <Link cardClose color="white" className="card-opened-fade-in" style={{position: 'absolute', right: '15px', top: '15px'}} iconF7="xmark_circle_fill" />
+          <CardHeader style={{height: '60px'}}>
+			Car Insurance
+			</CardHeader>
+          <div className="card-content-padding">
+            <p>Vehicle insurance (also known as car insurance, motor insurance, or auto insurance) is insurance for cars, trucks, motorcycles, and other road vehicles. Its primary use is to provide financial protection against physical damage or bodily injury resulting from traffic collisions and against liability that could also arise from incidents in a vehicle. Vehicle insurance may additionally offer financial protection against theft of the vehicle, and against damage to the vehicle sustained from events other than traffic collisions, such as keying, weather or natural disasters, and damage sustained by colliding with stationary objects. The specific terms of vehicle insurance vary with legal regulations in each region.</p>
             <p>
               <Button fill round large cardClose>Close</Button>
             </p>
@@ -77,6 +80,22 @@ export default () => (
         </CardContent>
       </Card>
 
+      <Card expandable>
+        <CardContent padding={false}>
+          <div style={{background: 'url(https://lh3.googleusercontent.com/proxy/bqjCCGOZ4LKtGpocNnkQKExZ7Nah28nF5j0HSR2-ExCGG1hyZ5nd1HsA-ZDO0FvrzdUUWTXISB_D-F84A1EXIWTwTRoaWOX128YxJVGlT_s8fke3wt80tFonlOm561VVE4AFHd4j) no-repeat center bottom', backgroundSize: 'cover', height: '240px'}}></div>
+          <Link cardClose color="white" className="card-opened-fade-in" style={{position: 'absolute', right: '15px', top: '15px'}} iconF7="xmark_circle_fill" />
+          <CardHeader style={{height: '60px'}}>
+			Property Insurance
+			</CardHeader>
+          <div className="card-content-padding">
+            <p>Property insurance provides protection against most risks to property, such as fire, theft and some weather damage. This includes specialized forms of insurance such as fire insurance, flood insurance, earthquake insurance, home insurance, or boiler insurance.</p>
+            <p>
+              <Button fill round large cardClose>Close</Button>
+            </p>
+          </div>
+        </CardContent>
+      </Card>
+	  
     </div>
   </Page>
 );

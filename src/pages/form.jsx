@@ -17,7 +17,7 @@ export default () => (
   <Page name="form">
     <Navbar title="Form" backLink="Back"></Navbar>
 
-    <BlockTitle>Form Example</BlockTitle>
+    <BlockTitle>Profile Information</BlockTitle>
     <List noHairlinesMd>
       <ListInput
         label="Name"

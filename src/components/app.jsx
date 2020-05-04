@@ -90,8 +90,16 @@ export default class extends React.Component {
         <Panel right reveal themeDark>
           <View>
             <Page>
-              <Navbar title="Right Panel"/>
-              <Block>Right panel content goes here</Block>
+              <Navbar title="Quick Navigation"/>
+              <p>Access a specific point in the car insurance claims process, directly within the side-bar.</p>
+				<List>
+				  <ListItem link="/about/" title="About"/>
+				  <ListItem link="/cards-expandable/" title="Explore Insurance Types"/>
+				  <ListItem link="/timeline-vertical/" title="Car Accident Timeline"/>
+				  <ListItem link="/treeview/" title="Car Accident Filesystem"/>
+				  <ListItem link="/messages/" title="Conversational Insurance Agent Chatbot"/>
+				  <ListItem link="/form/" title="Form"/>
+				</List>
             </Page>
           </View>
         </Panel>
@@ -101,8 +109,8 @@ export default class extends React.Component {
         <Views tabs className="safe-areas" swipeable={true}>
           {/* Tabbar for switching views-tabs */}
           <Toolbar tabbar labels bottom >
-            <Link tabLink="#view-home" tabLinkActive iconIos="f7:house_fill" iconAurora="f7:house_fill" iconMd="material:home" text="Home" />
-            <Link tabLink="#view-catalog" iconIos="f7:square_list_fill" iconAurora="f7:square_list_fill" iconMd="material:view_list" text="Catalog" />
+            <Link tabLink="#view-home" tabLinkActive iconIos="f7:globe" iconAurora="f7:globe" iconMd="material:language" text="Explore" />
+            <Link tabLink="#view-catalog" iconIos="f7:money_dollar_circle" iconAurora="f7:money_dollar_circle" iconMd="material:monetization_on" text="Claim" />
             <Link tabLink="#view-settings" iconIos="f7:gear" iconAurora="f7:gear" iconMd="material:settings" text="Settings" />
           </Toolbar>
 
@@ -121,13 +129,14 @@ export default class extends React.Component {
         <Popup id="my-popup">
           <View>
             <Page>
-              <Navbar title="Popup">
+              <Navbar title="Registration">
                 <NavRight>
                   <Link popupClose>Close</Link>
                 </NavRight>
               </Navbar>
+			  <BlockTitle>Registration Unavailable for Demo</BlockTitle>
               <Block>
-                <p>Popup content goes here.</p>
+                <p>You are currently accessing an early prototype for this application. Registration is unavailable. For more info, please go to <a>www.Guidewire.com</a></p>
               </Block>
             </Page>
           </View>

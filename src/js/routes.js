@@ -8,6 +8,10 @@ import SettingsPage from '../pages/settings.jsx';
 import CardsExpandable from '../pages/cards-expandable.jsx';
 import TimelineVertical from '../pages/timeline-vertical.jsx';
 import Treeview from '../pages/treeview.jsx';
+import Messages from '../pages/messages.jsx';
+import Purchase from '../pages/accordion.jsx';
+import Photos from '../pages/cards.jsx';
+import AccidentForm from '../pages/accidentform.jsx';
 
 import DynamicRoutePage from '../pages/dynamic-route.jsx';
 import RequestAndLoad from '../pages/request-and-load.jsx';
@@ -25,6 +29,15 @@ var routes = [
   {
     path: '/form/',
     component: FormPage,
+  },
+  
+  {
+    path: '/accidentform/',
+    component: AccidentForm,
+  },
+  {
+    path: '/cards/',
+    component: Photos,
   },
   {
     path: '/catalog/',
@@ -45,6 +58,14 @@ var routes = [
   {
     path: '/treeview/',
     component: Treeview,
+  },
+   {
+    path: '/messages/',
+    component: Messages,
+  },
+   {
+    path: '/purchase/',
+    component: Purchase,
   },
   {
     path: '/settings/',
