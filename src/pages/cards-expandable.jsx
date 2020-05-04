@@ -3,65 +3,40 @@ import { Navbar, Page, Block, Card, CardHeader, CardContent, Link, Button } from
 
 export default () => (
   <Page>
-    <Navbar title="Cards Expandable" backLink="Back" />
+    <Navbar title="Insurance Types" backLink="Back" />
 
     <Block>
-      <p>In addition to usual <a href="/cards/">Cards</a> there are also Expandable Cards that allow to store more information and illustrations about particular subject.</p>
+      <p>Explore the different types of insurance <a href="/cards/">Cards</a> that we can provide you with.</p>
     </Block>
 
     <div className="demo-expandable-cards">
-      <Card expandable>
+      
+	  
+	  <Card expandable>
         <CardContent padding={false}>
-          <div className="bg-color-red" style={{height: '300px'}}>
-            <CardHeader textColor="white" className="display-block">
-              Framework7
-              <br />
-              <small style={{opacity: 0.7}}>Build Mobile Apps</small>
-            </CardHeader>
-            <Link cardClose color="white" className="card-opened-fade-in" style={{position: 'absolute', right: '15px', top: '15px'}} iconF7="xmark_circle_fill" />
-          </div>
-          <div className="card-content-padding">
-            <p>Framework7 - is a free and open source HTML mobile framework to develop hybrid mobile apps or web apps with iOS or Android (Material) native look and feel. It is also an indispensable prototyping apps tool to show working app prototype as soon as possible in case you need to. Framework7 is created by Vladimir Kharlampidi (iDangero.us).</p>
-            <p>The main approach of the Framework7 is to give you an opportunity to create iOS and Android (Material) apps with HTML, CSS and JavaScript easily and clear. Framework7 is full of freedom. It doesn't limit your imagination or offer ways of any solutions somehow. Framework7 gives you freedom!</p>
-            <p>Framework7 is not compatible with all platforms. It is focused only on iOS and Android (Material) to bring the best experience and simplicity.</p>
-            <p>Framework7 is definitely for you if you decide to build iOS and Android hybrid app (Cordova or PhoneGap) or web app that looks like and feels as great native iOS or Android (Material) apps.</p>
-            <p>
-              <Button fill round large cardClose color="red">Close</Button>
-            </p>
-          </div>
-        </CardContent>
-      </Card>
-
-      <Card expandable>
-        <CardContent padding={false}>
-          <div className="bg-color-yellow" style={{height: '300px'}}>
-            <CardHeader textColor="black" className="display-block">
-              Framework7
-              <br/>
-              <small style={{opacity: 0.7}}>Build Mobile Apps</small>
-            </CardHeader>
-            <Link cardClose color="black" className="card-opened-fade-in" style={{position: 'absolute', right: '15px', top: '15px'}} iconF7="xmark_circle_fill" />
-          </div>
-          <div className="card-content-padding">
-            <p>Framework7 - is a free and open source HTML mobile framework to develop hybrid mobile apps or web apps with iOS or Android (Material) native look and feel. It is also an indispensable prototyping apps tool to show working app prototype as soon as possible in case you need to. Framework7 is created by Vladimir Kharlampidi (iDangero.us).</p>
-            <p>The main approach of the Framework7 is to give you an opportunity to create iOS and Android (Material) apps with HTML, CSS and JavaScript easily and clear. Framework7 is full of freedom. It doesn't limit your imagination or offer ways of any solutions somehow. Framework7 gives you freedom!</p>
-            <p>Framework7 is not compatible with all platforms. It is focused only on iOS and Android (Material) to bring the best experience and simplicity.</p>
-            <p>Framework7 is definitely for you if you decide to build iOS and Android hybrid app (Cordova or PhoneGap) or web app that looks like and feels as great native iOS or Android (Material) apps.</p>
-            <p>
-              <Button fill round large cardClose color="yellow" textColor="black">Close</Button>
-            </p>
-          </div>
-        </CardContent>
-      </Card>
-
-      <Card expandable>
-        <CardContent padding={false}>
-          <div style={{background: 'url(./img/beach.jpg) no-repeat center bottom', backgroundSize: 'cover', height: '240px'}}></div>
+          <div style={{background: 'url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-honda-accord-mmp-1-1568824260.jpg?crop=1xw:0.84375xh;center,top&resize=480:*) no-repeat center bottom', backgroundSize: 'cover', height: '240px'}}></div>
           <Link cardClose color="white" className="card-opened-fade-in" style={{position: 'absolute', right: '15px', top: '15px'}} iconF7="xmark_circle_fill" />
-          <CardHeader style={{height: '60px'}}>Beach, Goa</CardHeader>
+          <CardHeader style={{height: '60px'}}>
+			Car Insurance
+			</CardHeader>
           <div className="card-content-padding">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus rhoncus cursus. Etiam lorem est, consectetur vitae tempor a, volutpat eget purus. Duis urna lectus, vehicula at quam id, sodales dapibus turpis. Suspendisse potenti. Proin condimentum luctus nulla, et rhoncus ante rutrum eu. Maecenas ut tincidunt diam. Vestibulum lacinia dui ligula, sit amet pulvinar nisl blandit luctus. Vestibulum aliquam ligula nulla, tincidunt rhoncus tellus interdum at. Phasellus mollis ipsum at mollis tristique. Maecenas sit amet tempus justo. Duis dolor elit, mollis quis viverra quis, vehicula eu ante. Integer a molestie risus. Vestibulum eu sollicitudin massa, sit amet dictum sem. Aliquam nisi tellus, maximus eget placerat in, porta vel lorem. Aenean tempus sodales nisl in cursus. Curabitur tincidunt turpis in nisl ornare euismod eget at libero.</p>
-            <p>Suspendisse ligula eros, congue in nulla pellentesque, imperdiet blandit sapien. Morbi nisi sem, efficitur a rutrum porttitor, feugiat vel enim. Fusce eget vehicula odio, et luctus neque. Donec mattis a nulla laoreet commodo. Integer eget hendrerit augue, vel porta libero. Morbi imperdiet, eros at ultricies rutrum, eros urna auctor enim, eget laoreet massa diam vitae lorem. Proin eget urna ultrices, semper ligula aliquam, dignissim eros. Donec vitae augue eu sapien tristique elementum a nec nulla. Aliquam erat volutpat. Curabitur condimentum, metus blandit lobortis fringilla, enim mauris venenatis neque, et venenatis lorem urna ut justo. Maecenas neque enim, congue ac tempor quis, tincidunt ut mi. Donec venenatis ante non consequat molestie. Quisque ut rhoncus ligula. Vestibulum sodales maximus justo sit amet ornare. Nullam pulvinar eleifend nisi sit amet molestie.</p>
+            <p>Vehicle insurance (also known as car insurance, motor insurance, or auto insurance) is insurance for cars, trucks, motorcycles, and other road vehicles. Its primary use is to provide financial protection against physical damage or bodily injury resulting from traffic collisions and against liability that could also arise from incidents in a vehicle. Vehicle insurance may additionally offer financial protection against theft of the vehicle, and against damage to the vehicle sustained from events other than traffic collisions, such as keying, weather or natural disasters, and damage sustained by colliding with stationary objects. The specific terms of vehicle insurance vary with legal regulations in each region.</p>
+            <p>
+              <Button fill round large cardClose>Close</Button>
+            </p>
+          </div>
+        </CardContent>
+      </Card>
+	  
+	  <Card expandable>
+        <CardContent padding={false}>
+          <div style={{background: 'url(https://www.usnews.com/dims4/USNEWS/bf2adb4/2147483647/thumbnail/640x420/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2F81%2F7529eb0d5425603d837f3b6ba000ce%2F48518WideModern_roommates1_101613.jpg) no-repeat center bottom', backgroundSize: 'cover', height: '240px'}}></div>
+          <Link cardClose color="white" className="card-opened-fade-in" style={{position: 'absolute', right: '15px', top: '15px'}} iconF7="xmark_circle_fill" />
+          <CardHeader style={{height: '60px'}}>
+			Renters Insurance
+			</CardHeader>
+          <div className="card-content-padding">
+            <p>Renters' insurance, often called tenants' insurance, is an insurance policy that provides some of the benefits of homeowners' insurance, but does not include coverage for the dwelling, or structure, with the exception of small alterations that a tenant makes to the structure.</p>
             <p>
               <Button fill round large cardClose>Close</Button>
             </p>
@@ -71,19 +46,37 @@ export default () => (
 
       <Card expandable>
         <CardContent padding={false}>
-          <div style={{background: 'url(./img/monkey.jpg) no-repeat center top', backgroundSize: 'cover', height: '400px'}}>
-            <CardHeader textColor="white">Monkeys</CardHeader>
-            <Link cardClose color="white" className="card-opened-fade-in" style={{position: 'absolute', right: '15px', top: '15px'}} iconF7="xmark_circle_fill" />
-          </div>
+          <div style={{background: 'url(https://lh3.googleusercontent.com/proxy/bqjCCGOZ4LKtGpocNnkQKExZ7Nah28nF5j0HSR2-ExCGG1hyZ5nd1HsA-ZDO0FvrzdUUWTXISB_D-F84A1EXIWTwTRoaWOX128YxJVGlT_s8fke3wt80tFonlOm561VVE4AFHd4j) no-repeat center bottom', backgroundSize: 'cover', height: '240px'}}></div>
+          <Link cardClose color="white" className="card-opened-fade-in" style={{position: 'absolute', right: '15px', top: '15px'}} iconF7="xmark_circle_fill" />
+          <CardHeader style={{height: '60px'}}>
+			Property Insurance
+			</CardHeader>
           <div className="card-content-padding">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus rhoncus cursus. Etiam lorem est, consectetur vitae tempor a, volutpat eget purus. Duis urna lectus, vehicula at quam id, sodales dapibus turpis. Suspendisse potenti. Proin condimentum luctus nulla, et rhoncus ante rutrum eu. Maecenas ut tincidunt diam. Vestibulum lacinia dui ligula, sit amet pulvinar nisl blandit luctus. Vestibulum aliquam ligula nulla, tincidunt rhoncus tellus interdum at. Phasellus mollis ipsum at mollis tristique. Maecenas sit amet tempus justo. Duis dolor elit, mollis quis viverra quis, vehicula eu ante. Integer a molestie risus. Vestibulum eu sollicitudin massa, sit amet dictum sem. Aliquam nisi tellus, maximus eget placerat in, porta vel lorem. Aenean tempus sodales nisl in cursus. Curabitur tincidunt turpis in nisl ornare euismod eget at libero.</p>
-            <p>Suspendisse ligula eros, congue in nulla pellentesque, imperdiet blandit sapien. Morbi nisi sem, efficitur a rutrum porttitor, feugiat vel enim. Fusce eget vehicula odio, et luctus neque. Donec mattis a nulla laoreet commodo. Integer eget hendrerit augue, vel porta libero. Morbi imperdiet, eros at ultricies rutrum, eros urna auctor enim, eget laoreet massa diam vitae lorem. Proin eget urna ultrices, semper ligula aliquam, dignissim eros. Donec vitae augue eu sapien tristique elementum a nec nulla. Aliquam erat volutpat. Curabitur condimentum, metus blandit lobortis fringilla, enim mauris venenatis neque, et venenatis lorem urna ut justo. Maecenas neque enim, congue ac tempor quis, tincidunt ut mi. Donec venenatis ante non consequat molestie. Quisque ut rhoncus ligula. Vestibulum sodales maximus justo sit amet ornare. Nullam pulvinar eleifend nisi sit amet molestie.</p>
+            <p>Property insurance provides protection against most risks to property, such as fire, theft and some weather damage. This includes specialized forms of insurance such as fire insurance, flood insurance, earthquake insurance, home insurance, or boiler insurance.</p>
             <p>
               <Button fill round large cardClose>Close</Button>
             </p>
           </div>
         </CardContent>
       </Card>
+	  
+	  <Card expandable>
+        <CardContent padding={false}>
+          <div style={{background: 'url(https://static1.squarespace.com/static/57a1404a9f7456c32e8e48a6/59c53f752994ca9ad2cd8ec9/5a723c96e2c483b6b633dd1b/1517436673570/Image_1.jpeg) no-repeat center bottom', backgroundSize: 'cover', height: '240px'}}></div>
+          <Link cardClose color="white" className="card-opened-fade-in" style={{position: 'absolute', right: '15px', top: '15px'}} iconF7="xmark_circle_fill" />
+          <CardHeader style={{height: '60px'}}>
+			Casualty Insurance
+			</CardHeader>
+          <div className="card-content-padding">
+            <p>Casualty insurance is a problematically defined term which broadly encompasses insurance not directly concerned with life insurance, health insurance, or property insurance. Casualty insurance is mainly liability coverage of an individual or organization for negligent acts or omissions.</p>
+            <p>For homeowners or car owners, it's important to have casualty insurance as damage can end up being a large expense.</p>
+			<p>
+              <Button fill round large cardClose>Close</Button>
+            </p>
+          </div>
+        </CardContent>
+      </Card>
+
     </div>
   </Page>
 );

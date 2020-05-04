@@ -18,7 +18,7 @@ import {
 } from 'framework7-react';
 
 export default () => (
-  <Page name="home">
+  <Page name="home" ptr infiniteTop='true' ptrBottom='true'>
     {/* Top Navbar */}
     <Navbar large sliding={false}>
       <NavTitle sliding>Legacy</NavTitle>
@@ -37,7 +37,9 @@ export default () => (
     <BlockTitle>Navigation</BlockTitle>
     <List>
       <ListItem link="/about/" title="About"/>
-	  <ListItem link="/cards-expandable/" title="Cards Expandable"/>
+	  <ListItem link="/cards-expandable/" title="Explore Insurance Types"/>
+	  <ListItem link="/timeline-vertical/" title="Car Accident Timeline"/>
+	  <ListItem link="/treeview/" title="Car Accident Filesystem"/>
       <ListItem link="/form/" title="Form"/>
     </List>
 
@@ -80,4 +82,6 @@ export default () => (
       />
     </List>
   </Page>
+  
 );
+

@@ -17,36 +17,36 @@ export default () => (
   <Page name="settings">
     <Navbar title="Settings" />
 
-    <BlockTitle>Form Example</BlockTitle>
+    <BlockTitle>Profile</BlockTitle>
     <List noHairlinesMd>
       <ListInput
         label="Name"
         type="text"
-        placeholder="Your name"
+        placeholder="Muhammed"
       ></ListInput>
 
       <ListInput
         label="E-mail"
         type="email"
-        placeholder="E-mail"
+        placeholder="Muhammed@gmail.com"
       ></ListInput>
 
       <ListInput
-        label="URL"
+        label="Location"
         type="url"
-        placeholder="URL"
+        placeholder="San Mateo, California"
       ></ListInput>
 
       <ListInput
-        label="Password"
-        type="password"
-        placeholder="Password"
+        label="Age"
+        type="tel"
+        placeholder="24"
       ></ListInput>
 
       <ListInput
         label="Phone"
         type="tel"
-        placeholder="Phone"
+        placeholder="555-555-5555"
       ></ListInput>
 
       <ListInput
@@ -56,12 +56,24 @@ export default () => (
         <option>Male</option>
         <option>Female</option>
       </ListInput>
+	  
+	  <ListInput
+        label="Insurer"
+        type="select"
+        >
+        <option>Gecko</option>
+        <option>BBB</option>
+		<option>AllCity</option>
+		<option>BMB</option>
+		<option>European Integrity</option>
+		<option>European Family Insurance</option>
+      </ListInput>
 
       <ListInput
         label="Birth date"
         type="date"
         placeholder="Birth day"
-        defaultValue="2014-04-30"
+        defaultValue="1994-04-30"
       ></ListInput>
 
       <ListItem

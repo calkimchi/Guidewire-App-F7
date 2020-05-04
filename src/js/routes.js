@@ -6,6 +6,8 @@ import CatalogPage from '../pages/catalog.jsx';
 import ProductPage from '../pages/product.jsx';
 import SettingsPage from '../pages/settings.jsx';
 import CardsExpandable from '../pages/cards-expandable.jsx';
+import TimelineVertical from '../pages/timeline-vertical.jsx';
+import Treeview from '../pages/treeview.jsx';
 
 import DynamicRoutePage from '../pages/dynamic-route.jsx';
 import RequestAndLoad from '../pages/request-and-load.jsx';
@@ -35,6 +37,14 @@ var routes = [
   {
     path: '/cards-expandable/',
     component: CardsExpandable,
+  },
+  {
+    path: '/timeline-vertical/',
+    component: TimelineVertical,
+  },
+  {
+    path: '/treeview/',
+    component: Treeview,
   },
   {
     path: '/settings/',
