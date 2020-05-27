@@ -1,13 +1,13 @@
 
 # Guidewire
 
-##Video
+## Video Demo of Prototype
 https://youtu.be/eIzhcQ7pjA8
 
-##Mobile Prototype
+## Mobile Prototype
 Best experienced on a Mobile Device
 
-##Github Pages Deployment
+## Github Pages Deployment
 Built and deployed using the npm package "gh-pages" 
 
 ## NPM Scripts
