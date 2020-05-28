@@ -21,7 +21,7 @@ import {
 } from 'framework7-react';
 
 import Notifications from "./notifications.jsx"
-
+import LearnCard from "./learn-insurance-card.jsx"
 
 
 export default () => (
@@ -38,12 +38,17 @@ export default () => (
     {/* Page content */}
     <Block strong>
       <p><a>Demo text: </a>Welcome to the Legacy Insurance Prototype! Your insurance purchasing process as a millenial begins with exploring the various types of insurance that apply to you!</p>
-		
+        
+        <div >
+    		<Notifications />
+    	</div>    	
+    	
+    	<div>
+    	    <LearnCard />
+    	</div>
     </Block>
     
-	<div >
-		<Notifications />
-	</div>    	
+	
 	
 
     <BlockTitle>Register and Login</BlockTitle>

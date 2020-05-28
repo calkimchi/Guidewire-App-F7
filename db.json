@@ -1,0 +1,30 @@
+{
+    "users": [
+        {
+            "id":"1",
+            "name":"Muhummad",
+            "email":"muhummad@gmail.com",
+            "age":"24",
+            "location":"San Mateo",
+            "phone":"555-555-5555"
+        },
+        {
+            "id":"2",
+            "name":"John",
+            "email":"john@gmail.com",
+            "age":"22",
+            "location":"San Francisco",
+            "phone":"555-555-1337"
+        },
+        {
+            "id":"3",
+            "name":"Andy",
+            "email":"andy@gmail.com",
+            "age":"19",
+            "location":"San Jose",
+            "phone":"123-555-5555"
+        }
+        
+    ]
+    
+}
